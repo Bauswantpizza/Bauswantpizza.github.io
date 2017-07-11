@@ -1,0 +1,39 @@
+html, body{
+width: 100%;
+margin: 0;
+padding: 0;
+background-color: #5A121B;
+font-family: 'Anton', sans-serif;
+}
+.container{
+  text-align: center;
+}
+.image{
+margin-top: 100px;
+}
+
+a{
+color: black;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+a:hover{
+  text-decoration: none;
+  color: grey;
+}
+.nav{
+
+
+
+}
+
+.nav-link{
+display: inline-block;
+padding: 25px;
+
+}
+.image1{
+width: 300px;
+
+}
