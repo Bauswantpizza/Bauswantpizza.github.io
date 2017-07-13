@@ -23,5 +23,18 @@ second.addeventListener('click', function(){
   }
 });
 function setItems() {
-  
+  function rand(first) {
+    var i = Math.floor(Math.random()*(item.length));
+    if(i == first){
+      rand(first);
+    }else{
+      return i;
+    }
+  }
+  firstDiv.value = items[i].vlaue;
+  firstDiv.innerText = items[i].name;
+  var j = rand(i);
+  secondDiv.value = items[j].value;
+  secondDiv.innerText = items[j].name;
 }
+setItems();
