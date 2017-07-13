@@ -11,7 +11,9 @@ font-family: 'Anton', sans-serif;
 .image{
 margin-top: 100px;
 }
-
+.image2{
+  width: 450px;
+}
 a{
 color: black;
   text-decoration: none;
@@ -43,6 +45,7 @@ padding: 25px;
 width: 300px;
 
 }
+
 .image3{
   width: 300px;
 }
