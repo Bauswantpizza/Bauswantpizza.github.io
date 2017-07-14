@@ -16,17 +16,21 @@ words = [
 random.shuffle(words)
 word = words[0]
 solution = "_" * len(word)
-tries = 10
+tries = 10 * len(word)
 
 while word != solution and tries != 0:
     guess = input("Guess a letter: ")
-    print(solution)
+
+
     for i in range (0, len(word)):
         if word[i] == guess:
             solution = list(solution)
             solution[i] = guess
             solution = "".join(solution)
-        else:
-            tries = tries - 1
-print("Correct")
-print("The word was", word)
+        tries = tries - 1
+    print(solution)
+if solution == word:
+    print("Correct")
+    print("The word was", word)
+else :
+    print(word)
